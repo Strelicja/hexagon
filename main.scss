@@ -1,5 +1,9 @@
 //********** BUTTON 658 x 81 *************//
-
+.center {
+  text-align: center;
+  justify-content: center;
+  display: block;
+}
 //******** animation general ********//
 // left hexagon
 @-webkit-keyframes criss658-cross-left {
@@ -870,7 +874,7 @@
 .hexagon414B:after {
   content: "";
   position: absolute;
-  // width: 0; 
+  // width: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
 }
